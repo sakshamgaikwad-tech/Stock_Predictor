@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1120;
+  color: white;
+}
+
+.topbar {
+  background: #111827;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background: #22c55e;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.market-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.risk-badge {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.low {
+  background: #16a34a;
+}
+
+.medium {
+  background: #eab308;
+  color: black;
+}
+
+.high {
+  background: #dc2626;
+}
+
+.loader {
+  margin: 40px auto;
+  border: 6px solid #1e293b;
+  border-top: 6px solid #22c55e;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
